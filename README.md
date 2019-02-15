@@ -1,26 +1,21 @@
-# eva-and-rafa
+# eva-and-rafa.com
 
-## Project setup
+## Download and install node and npm
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+## Setup project
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+(This will watch for changes and hot-reload your browser)
+
+### Compile for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```

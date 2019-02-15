@@ -1,0 +1,264 @@
+@import 'globals';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  font-family: $primary-font;
+  color: $black;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  a {
+    display: inline-block;
+    padding-bottom: $small-margin / 2;
+    margin: $large-margin;
+    color: $black;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      color: $gray;
+    }
+  }
+  .router-link-exact-active {
+    border-bottom: 4px solid $black;
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+.main {
+  padding-top: 74px;
+}
+
+.bg-1:before {
+  background-image: url(~./assets/backgrounds/bg_1.jpg);
+}
+
+.bg-2:before {
+  background-image: url(~./assets/backgrounds/bg_2.jpg);
+}
+
+.bg-3:before {
+  background-image: url(~./assets/backgrounds/bg_3.jpg);
+}
+
+.bg-4:before {
+  background-image: url(~./assets/backgrounds/bg_4.jpg);
+}
+
+.bg-5:before {
+  background-image: url(~./assets/backgrounds/bg_5.jpg);
+}
+
+.bg-6:before {
+  background-image: url(~./assets/backgrounds/bg_6.jpg);
+}
+
+.bg-7:before {
+  background-image: url(~./assets/backgrounds/bg_7.jpg);
+}
+
+.bg-8:before {
+  background-image: url(~./assets/backgrounds/bg_8.jpg);
+}
+
+.bg-9:before {
+  background-image: url(~./assets/backgrounds/bg_9.jpg);
+}
+
+.bg-10:before {
+  background-image: url(~./assets/backgrounds/bg_10.jpg);
+}
+
+.bg-11:before {
+  background-image: url(~./assets/backgrounds/bg_11.jpg);
+}
+
+.bg-12:before {
+  background-image: url(~./assets/backgrounds/bg_12.jpg);
+}
+
+.bg-13:before {
+  background-image: url(~./assets/backgrounds/bg_13.jpg);
+}
+
+.bg-14:before {
+  background-image: url(~./assets/backgrounds/bg_14.jpg);
+}
+
+.bg-15:before {
+  background-image: url(~./assets/backgrounds/bg_15.jpg);
+}
+
+.bg-16:before {
+  background-image: url(~./assets/backgrounds/bg_16.jpg);
+}
+
+.bg-17:before {
+  background-image: url(~./assets/backgrounds/bg_17.jpg);
+}
+
+.bg-18:before {
+  background-image: url(~./assets/backgrounds/bg_18.jpg);
+}
+
+.bg-19:before {
+  background-image: url(~./assets/backgrounds/bg_19.jpg);
+}
+
+.bg-20:before {
+  background-image: url(~./assets/backgrounds/bg_20.jpg);
+}
+
+.bg-21:before {
+  background-image: url(~./assets/backgrounds/bg_21.jpg);
+}
+
+.bg-22:before {
+  background-image: url(~./assets/backgrounds/bg_22.jpg);
+}
+
+.bg-23:before {
+  background-image: url(~./assets/backgrounds/bg_23.jpg);
+}
+
+.bg-24:before {
+  background-image: url(~./assets/backgrounds/bg_24.jpg);
+}
+
+.bg-25:before {
+  background-image: url(~./assets/backgrounds/bg_25.jpg);
+}
+
+.bg-26:before {
+  background-image: url(~./assets/backgrounds/bg_26.jpg);
+}
+
+.bg-27:before {
+  background-image: url(~./assets/backgrounds/bg_27.jpg);
+}
+
+.bg-28:before {
+  background-image: url(~./assets/backgrounds/bg_28.jpg);
+}
+
+.bg-29:before {
+  background-image: url(~./assets/backgrounds/bg_29.jpg);
+}
+
+.bg-30:before {
+  background-image: url(~./assets/backgrounds/bg_30.jpg);
+}
+
+.bg-31:before {
+  background-image: url(~./assets/backgrounds/bg_31.jpg);
+}
+
+.bg-32:before {
+  background-image: url(~./assets/backgrounds/bg_32.jpg);
+}
+
+.bg-33:before {
+  background-image: url(~./assets/backgrounds/bg_33.jpg);
+}
+
+.bg-34:before {
+  background-image: url(~./assets/backgrounds/bg_34.jpg);
+}
+
+.bg-35:before {
+  background-image: url(~./assets/backgrounds/bg_35.jpg);
+}
+
+.bg-36:before {
+  background-image: url(~./assets/backgrounds/bg_36.jpg);
+}
+
+.bg-37:before {
+  background-image: url(~./assets/backgrounds/bg_37.jpg);
+}
+
+.bg-38:before {
+  background-image: url(~./assets/backgrounds/bg_38.jpg);
+}
+
+.bg-39:before {
+  background-image: url(~./assets/backgrounds/bg_39.jpg);
+}
+
+.bg-40:before {
+  background-image: url(~./assets/backgrounds/bg_40.jpg);
+}
+
+.bg-41:before {
+  background-image: url(~./assets/backgrounds/bg_41.jpg);
+}
+
+.bg-42:before {
+  background-image: url(~./assets/backgrounds/bg_42.jpg);
+}
+
+.bg-43:before {
+  background-image: url(~./assets/backgrounds/bg_43.jpg);
+}
+
+.bg-44:before {
+  background-image: url(~./assets/backgrounds/bg_44.jpg);
+}
+
+.bg-img {
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &:before {
+    background-color: $white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+  }
+  &:after {
+    background-color: $white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
