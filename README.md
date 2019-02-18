@@ -1,9 +1,9 @@
 # eva-and-rafa.com
 
-## Download and install node and npm
+### Download and install node and npm
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-## Setup project
+### Setup project
 ```
 npm install
 ```
