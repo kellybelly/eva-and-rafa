@@ -53,212 +53,74 @@ body {
   padding-top: 74px;
 }
 
-.bg-1:before {
-  background-image: url(~./assets/backgrounds/bg_1.jpg);
-}
-
-.bg-2:before {
-  background-image: url(~./assets/backgrounds/bg_2.jpg);
-}
-
-.bg-3:before {
-  background-image: url(~./assets/backgrounds/bg_3.jpg);
-}
-
-.bg-4:before {
-  background-image: url(~./assets/backgrounds/bg_4.jpg);
-}
-
-.bg-5:before {
-  background-image: url(~./assets/backgrounds/bg_5.jpg);
-}
-
-.bg-6:before {
-  background-image: url(~./assets/backgrounds/bg_6.jpg);
-}
-
-.bg-7:before {
-  background-image: url(~./assets/backgrounds/bg_7.jpg);
-}
-
-.bg-8:before {
-  background-image: url(~./assets/backgrounds/bg_8.jpg);
-}
-
-.bg-9:before {
-  background-image: url(~./assets/backgrounds/bg_9.jpg);
-}
-
-.bg-10:before {
-  background-image: url(~./assets/backgrounds/bg_10.jpg);
-}
-
-.bg-11:before {
-  background-image: url(~./assets/backgrounds/bg_11.jpg);
-}
-
-.bg-12:before {
-  background-image: url(~./assets/backgrounds/bg_12.jpg);
-}
-
-.bg-13:before {
-  background-image: url(~./assets/backgrounds/bg_13.jpg);
-}
-
-.bg-14:before {
-  background-image: url(~./assets/backgrounds/bg_14.jpg);
-}
-
-.bg-15:before {
-  background-image: url(~./assets/backgrounds/bg_15.jpg);
-}
-
-.bg-16:before {
-  background-image: url(~./assets/backgrounds/bg_16.jpg);
-}
-
-.bg-17:before {
-  background-image: url(~./assets/backgrounds/bg_17.jpg);
-}
-
-.bg-18:before {
-  background-image: url(~./assets/backgrounds/bg_18.jpg);
-}
-
-.bg-19:before {
-  background-image: url(~./assets/backgrounds/bg_19.jpg);
-}
-
-.bg-20:before {
-  background-image: url(~./assets/backgrounds/bg_20.jpg);
-}
-
-.bg-21:before {
-  background-image: url(~./assets/backgrounds/bg_21.jpg);
-}
-
-.bg-22:before {
-  background-image: url(~./assets/backgrounds/bg_22.jpg);
-}
-
-.bg-23:before {
-  background-image: url(~./assets/backgrounds/bg_23.jpg);
-}
-
-.bg-24:before {
-  background-image: url(~./assets/backgrounds/bg_24.jpg);
-}
-
-.bg-25:before {
-  background-image: url(~./assets/backgrounds/bg_25.jpg);
-}
-
-.bg-26:before {
-  background-image: url(~./assets/backgrounds/bg_26.jpg);
-}
-
-.bg-27:before {
-  background-image: url(~./assets/backgrounds/bg_27.jpg);
-}
-
-.bg-28:before {
-  background-image: url(~./assets/backgrounds/bg_28.jpg);
-}
-
-.bg-29:before {
-  background-image: url(~./assets/backgrounds/bg_29.jpg);
-}
-
-.bg-30:before {
-  background-image: url(~./assets/backgrounds/bg_30.jpg);
-}
-
-.bg-31:before {
-  background-image: url(~./assets/backgrounds/bg_31.jpg);
-}
-
-.bg-32:before {
-  background-image: url(~./assets/backgrounds/bg_32.jpg);
-}
-
-.bg-33:before {
-  background-image: url(~./assets/backgrounds/bg_33.jpg);
-}
-
-.bg-34:before {
-  background-image: url(~./assets/backgrounds/bg_34.jpg);
-}
-
-.bg-35:before {
-  background-image: url(~./assets/backgrounds/bg_35.jpg);
-}
-
-.bg-36:before {
-  background-image: url(~./assets/backgrounds/bg_36.jpg);
-}
-
-.bg-37:before {
-  background-image: url(~./assets/backgrounds/bg_37.jpg);
-}
-
-.bg-38:before {
-  background-image: url(~./assets/backgrounds/bg_38.jpg);
-}
-
-.bg-39:before {
-  background-image: url(~./assets/backgrounds/bg_39.jpg);
-}
-
-.bg-40:before {
-  background-image: url(~./assets/backgrounds/bg_40.jpg);
-}
-
-.bg-41:before {
-  background-image: url(~./assets/backgrounds/bg_41.jpg);
-}
-
-.bg-42:before {
-  background-image: url(~./assets/backgrounds/bg_42.jpg);
-}
-
-.bg-43:before {
-  background-image: url(~./assets/backgrounds/bg_43.jpg);
-}
-
-.bg-44:before {
-  background-image: url(~./assets/backgrounds/bg_44.jpg);
-}
-
-.bg-img {
-  &:before,
-  &:after {
+.bg-imgs {
+  &:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
-  &:before {
     background-color: $white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -2;
-  }
-  &:after {
-    background-color: $white;
-    opacity: 0.3;
+    opacity: 0.4;
     z-index: -1;
   }
+  &.show-bg-1 .bg-1 { display: block; }
+  &.show-bg-2 .bg-2 { display: block; }
+  &.show-bg-3 .bg-3 { display: block; }
+  &.show-bg-4 .bg-4 { display: block; }
+  &.show-bg-5 .bg-5 { display: block; }
+  &.show-bg-6 .bg-6 { display: block; }
+  &.show-bg-7 .bg-7 { display: block; }
+  &.show-bg-8 .bg-8 { display: block; }
+  &.show-bg-9 .bg-9 { display: block; }
+  &.show-bg-10 .bg-10 { display: block; }
+  &.show-bg-11 .bg-11 { display: block; }
+  &.show-bg-12 .bg-12 { display: block; }
+  &.show-bg-13 .bg-13 { display: block; }
+  &.show-bg-14 .bg-14 { display: block; }
+  &.show-bg-15 .bg-15 { display: block; }
+  &.show-bg-16 .bg-16 { display: block; }
+  &.show-bg-17 .bg-17 { display: block; }
+  &.show-bg-18 .bg-18 { display: block; }
+  &.show-bg-19 .bg-19 { display: block; }
+  &.show-bg-20 .bg-20 { display: block; }
+  &.show-bg-21 .bg-21 { display: block; }
+  &.show-bg-22 .bg-22 { display: block; }
+  &.show-bg-23 .bg-23 { display: block; }
+  &.show-bg-24 .bg-24 { display: block; }
+  &.show-bg-25 .bg-25 { display: block; }
+  &.show-bg-26 .bg-26 { display: block; }
+  &.show-bg-27 .bg-27 { display: block; }
+  &.show-bg-28 .bg-28 { display: block; }
+  &.show-bg-29 .bg-29 { display: block; }
+  &.show-bg-30 .bg-30 { display: block; }
+  &.show-bg-31 .bg-31 { display: block; }
+  &.show-bg-32 .bg-32 { display: block; }
+  &.show-bg-33 .bg-33 { display: block; }
+  &.show-bg-34 .bg-34 { display: block; }
+  &.show-bg-35 .bg-35 { display: block; }
+  &.show-bg-36 .bg-36 { display: block; }
+  &.show-bg-37 .bg-37 { display: block; }
+  &.show-bg-38 .bg-38 { display: block; }
+  &.show-bg-39 .bg-39 { display: block; }
+  &.show-bg-40 .bg-40 { display: block; }
+  &.show-bg-41 .bg-41 { display: block; }
+  &.show-bg-42 .bg-42 { display: block; }
+  &.show-bg-43 .bg-43 { display: block; }
+  &.show-bg-44 .bg-44 { display: block; }
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity .5s;
+.bg-img {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  z-index: -2;
 }
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
-
