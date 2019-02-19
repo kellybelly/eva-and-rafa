@@ -2,9 +2,17 @@
   <div class="main home">
     <div class="content">
       <h1>Eva<span>&</span>Rafa</h1>
-      <h2>August 31st<span>|</span>Salvador da Bahia, Brasil</h2>
+
+      <h2 v-if="country === 'br'">
+        31 de Agosto<span>|</span>Salvador, Bahia
+      </h2>
+      <h2 v-else>
+        August 31st<span>|</span>Salvador da Bahia, Brasil
+      </h2>
+
       <router-link to="/rsvp" class="rsvp-btn">RSVP</router-link>
     </div>
+
     <div class="bg-imgs" :class="'show-bg-' + bgCount">
       <img class="bg-img" v-for="(bgImg, index) in bgImgs" :class="'bg-' + (index+1)" :src="bgImg.src">
     </div>
@@ -62,15 +70,15 @@
           { src: require('../assets/backgrounds/bg_41.jpg') },
           { src: require('../assets/backgrounds/bg_42.jpg') },
           { src: require('../assets/backgrounds/bg_43.jpg') },
-          { src: require('../assets/backgrounds/bg_44.jpg') }
-
-        ]
+          { src: require('../assets/backgrounds/bg_44.jpg') },
+        ],
       }
     },
+    props: ['country'],
     methods: {
       getNewBgCount: function () {
         this.bgCount = Math.floor(Math.random() * 44) + 1 // number of background images is hard coded!!
-      }
+      },
     },
     created: function () {
       this.getNewBgCount()
@@ -78,7 +86,7 @@
     },
     beforeDestroy: function () {
       clearInterval(this.timer)
-    }
+    },
   }
 </script>
 
