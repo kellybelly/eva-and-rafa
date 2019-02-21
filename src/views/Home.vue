@@ -72,7 +72,6 @@
           { src: require('../assets/backgrounds/bg_41.jpg') },
           { src: require('../assets/backgrounds/bg_42.jpg') },
           { src: require('../assets/backgrounds/bg_43.jpg') },
-          { src: require('../assets/backgrounds/bg_44.jpg') }
         ]
       }
     },
