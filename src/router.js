@@ -20,12 +20,12 @@ export default new Router({
       name: 'details',
       component: () => import('./views/Details.vue')
     },
-    /*{
+    {
       path: '/travel',
       name: 'travel',
       component: () => import('./views/Travel.vue')
     },
-    {
+    /*{
       path: '/tips',
       name: 'tips',
       component: () => import('./views/Tips.vue')

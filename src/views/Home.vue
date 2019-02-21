@@ -14,7 +14,7 @@
     </div>
 
     <div class="bg-imgs" :class="'show-bg-' + bgCount">
-      <img class="bg-img" v-for="(bgImg, index) in bgImgs" :class="'bg-' + (index+1)" :src="bgImg.src">
+      <img class="bg-img" v-for="(bgImg, index) in bgImgs" :key="bgImg.id" :class="'bg-' + (index+1)" :src="bgImg.src">
     </div>
   </div>
 </template>
@@ -70,15 +70,17 @@
           { src: require('../assets/backgrounds/bg_41.jpg') },
           { src: require('../assets/backgrounds/bg_42.jpg') },
           { src: require('../assets/backgrounds/bg_43.jpg') },
-          { src: require('../assets/backgrounds/bg_44.jpg') },
-        ],
+          { src: require('../assets/backgrounds/bg_44.jpg') }
+        ]
       }
     },
-    props: ['country'],
+    props: [
+      'country'
+    ],
     methods: {
       getNewBgCount: function () {
         this.bgCount = Math.floor(Math.random() * 44) + 1 // number of background images is hard coded!!
-      },
+      }
     },
     created: function () {
       this.getNewBgCount()
@@ -86,7 +88,7 @@
     },
     beforeDestroy: function () {
       clearInterval(this.timer)
-    },
+    }
   }
 </script>
 

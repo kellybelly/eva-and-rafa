@@ -16,15 +16,18 @@
   export default {
     data: function () {
       return {
-        updatedCountry: this.country,
+        updatedCountry: this.country
       }
     },
-    props: ['country'],
+    props: [
+      'country'
+    ],
     methods: {
       updateCountry: function (newCountry) {
         this.updatedCountry = newCountry
+        localStorage.country = newCountry
         this.$emit('update-country', newCountry)
       }
-    },
+    }
   }
 </script>
