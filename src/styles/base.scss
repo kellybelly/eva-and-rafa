@@ -24,10 +24,9 @@ body {
 }
 .text-content {
   margin: 0 auto;
-  max-width: 500px;
+  width: 600px;
 }
 .text-content > h2,h3 {
-  margin-top: 20px;
   text-align: center;
 }
 .text-content > ul {
@@ -71,10 +70,8 @@ body {
 }
 
 .main {
-  width: 600px;
   height: 100%;
   padding-top: 75px;
-  margin: 0 auto;
 }
 
 .content {
