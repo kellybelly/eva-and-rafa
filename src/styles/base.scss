@@ -1,7 +1,8 @@
 @import 'globals';
 
 html,
-body {
+body,
+#app {
   height: 100%;
 }
 
@@ -14,10 +15,6 @@ body {
 }
 
 #app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100%;
   font-family: $primary-font;
   color: $black;
 }
