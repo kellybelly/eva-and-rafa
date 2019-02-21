@@ -22,19 +22,14 @@ body {
   height: 100%;
   background: rgba(255,255,255,0.4);
   border-radius: 4px;
-}
-
-.text-content {
-  height: 90%;
-  margin: 0 auto;
-  max-width: 500px;
   overflow-y: auto;
 }
 
 .text-content {
+  margin: 0 auto;
+  width: 600px;
   h2,
   h3 {
-    margin-top: 20px;
     text-align: center;
   }
   ul {
@@ -80,10 +75,8 @@ body {
 }
 
 .main {
-  width: 600px;
   height: 100%;
   padding-top: 75px;
-  margin: 0 auto;
 }
 
 .content {
