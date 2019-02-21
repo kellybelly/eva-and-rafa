@@ -27,7 +27,6 @@
         timer: null,
         bgCount: null,
         bgImgs: [
-          { src: require('../assets/backgrounds/bg_1.jpg') },
           { src: require('../assets/backgrounds/bg_2.jpg') },
           { src: require('../assets/backgrounds/bg_3.jpg') },
           { src: require('../assets/backgrounds/bg_4.jpg') },
@@ -79,7 +78,7 @@
     ],
     methods: {
       getNewBgCount: function () {
-        this.bgCount = Math.floor(Math.random() * 44) + 1 // number of background images is hard coded!!
+        this.bgCount = Math.floor(Math.random() * 43) + 1 // number of background images is hard coded!!
       }
     },
     created: function () {
