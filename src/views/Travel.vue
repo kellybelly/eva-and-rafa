@@ -1,7 +1,7 @@
 <template>
   <div class="main travel">
     <div class="content">
-      <div v-if="country === 'de'">
+      <div class="text_content" v-if="country === 'de'">
         <h2>Wo findet der Spass statt</h2>
         <a href="https://www.booking.com/hotel/br/b-blue-beachouses.html">BBlue Beachouses</a>, Avenida Principal s/n, Itacimirim, Brazil
 
@@ -42,7 +42,7 @@
         <p>Mehr Informationen findet ihr <a href="https://www.auswaertiges-amt.de/de/aussenpolitik/laender/brasilien-node/brasiliensicherheit/201092#content_5">hier</a> und <a href="https://tropeninstitut.de/ihr-reiseziel/brasilien">hier</a>.</p>
       </div>
 
-      <div v-else-if="country === 'br'">
+      <div class="text_content" v-else-if="country === 'br'">
         <h2>Onde vai ser a festa</h2>
         <a href="https://www.booking.com/hotel/br/b-blue-beachouses.html">BBlue Beachouses</a>, Avenida Principal s/n, Itacimirim, Brazil
 
@@ -59,7 +59,7 @@
         </ul>
       </div>
 
-      <div v-else>
+      <div class="text_content" v-else>
         <h2>Where the fun happens</h2>
     <a href="https://www.booking.com/hotel/br/b-blue-beachouses.html">BBlue Beachouses</a>, Avenida Principal s/n, Itacimirim, Brazil
 

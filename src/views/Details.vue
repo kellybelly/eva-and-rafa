@@ -1,6 +1,7 @@
 <template>
   <div class="main">
-  <div class="content" v-if="country === 'de'">
+  <div class="content">
+  <div class="text_content" v-if="country === 'de'">
     <p>Was passiert so die drei Tage:</p>
 
     <h3>Freitag, 30. August:</h3>
@@ -33,7 +34,7 @@
     <h3>Hochzeitsgeschenke:</h3>
     Euer Geschenk an uns ist, dass ihr nach Brasilien kommt und mit uns feiert. Das ist absolut genug für uns :)
   </div>
-  <div class="content" v-else-if="country === 'br'">
+  <div class="text_content" v-else-if="country === 'br'">
     <p>E aí, qual a programação?</p>
 
     <h3>Sexta, 30 de Agosto:</h3>
@@ -65,7 +66,7 @@
     <h3>Presentes de Casamento:</h3>
     <ul><li>Já é um presente que você está vindo, então não precisa se preocupar com presentes :)</li></ul>
   </div>
-  <div class="content" v-else="country === 'us'">
+  <div class="text_content" v-else="country === 'us'">
     <p>So what’s gonna happen these three days:</p>
 
     <h3>Friday, August 30th:</h3>
@@ -97,6 +98,7 @@
 
     <span style="font-size: large; font-weight: bold">Wedding gifts:</span>
     <ul><li>The gift to us is that you’ll be there to celebrate with us, so we really don’t need any gifts :)</li></ul>
+  </div>
   </div>
   <div class="bg-imgs show-bg-1">
     <img class="bg-img bg-1" src="../assets/backgrounds/bg_1.jpg">
