@@ -106,7 +106,7 @@
 
 <script>
   export default {
-    name: 'home',
+    name: 'details',
     props: ['country'],
   }
 </script>
