@@ -13,18 +13,23 @@
   export default {
     data: function () {
       return {
-        country: 'de',
+        country: 'us'
       }
     },
     components: {
       'app-header': appHeader,
-      'app-footer': appFooter,
+      'app-footer': appFooter
     },
     methods: {
       updateCountry: function (country) {
         this.country = country
-      },
+      }
     },
+    beforeMount: function () {
+      if(localStorage.country) {
+        this.country = localStorage.country
+      }
+    }
   }
 </script>
 
