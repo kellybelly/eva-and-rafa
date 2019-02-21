@@ -25,12 +25,12 @@ export default new Router({
       name: 'travel',
       component: () => import('./views/Travel.vue')
     },
-    /*{
+    {
       path: '/tips',
       name: 'tips',
       component: () => import('./views/Tips.vue')
     },
-    {
+    /*{
       path: '*',
       component: () => import('./views/404.vue')
     }*/

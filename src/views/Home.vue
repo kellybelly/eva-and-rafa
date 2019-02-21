@@ -6,6 +6,9 @@
       <h2 v-if="country === 'br'">
         31 de Agosto<span>|</span>Salvador, Bahia
       </h2>
+      <h2 v-else-if="country === 'de'">
+        31. August<span>|</span>Salvador da Bahia, Brasilien
+      </h2>
       <h2 v-else>
         August 31st<span>|</span>Salvador da Bahia, Brasil
       </h2>
@@ -27,7 +30,6 @@
         timer: null,
         bgCount: null,
         bgImgs: [
-          { src: require('../assets/backgrounds/bg_1.jpg') },
           { src: require('../assets/backgrounds/bg_2.jpg') },
           { src: require('../assets/backgrounds/bg_3.jpg') },
           { src: require('../assets/backgrounds/bg_4.jpg') },
@@ -70,7 +72,6 @@
           { src: require('../assets/backgrounds/bg_41.jpg') },
           { src: require('../assets/backgrounds/bg_42.jpg') },
           { src: require('../assets/backgrounds/bg_43.jpg') },
-          { src: require('../assets/backgrounds/bg_44.jpg') }
         ]
       }
     },
@@ -79,7 +80,7 @@
     ],
     methods: {
       getNewBgCount: function () {
-        this.bgCount = Math.floor(Math.random() * 44) + 1 // number of background images is hard coded!!
+        this.bgCount = Math.floor(Math.random() * this.bgImgs.length) + 1;
       }
     },
     created: function () {
