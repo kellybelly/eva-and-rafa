@@ -124,17 +124,9 @@
 <script>
   export default {
     name: 'travel',
-    data: function () {
-      return {
-
-      }
-    },
     props: [
       'country'
-    ],
-    methods: {
-
-    }
+    ]
   }
 </script>
 

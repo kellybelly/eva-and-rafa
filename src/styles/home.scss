@@ -1,6 +1,10 @@
 @import 'globals';
 
 .home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
   text-align: center;
   h1 {
     margin: 0 0 $large-margin;
