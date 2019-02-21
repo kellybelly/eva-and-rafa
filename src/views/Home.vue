@@ -78,7 +78,7 @@
     ],
     methods: {
       getNewBgCount: function () {
-        this.bgCount = Math.floor(Math.random() * 43) + 1 // number of background images is hard coded!!
+        this.bgCount = Math.floor(Math.random() * this.bgImgs.length) + 1;
       }
     },
     created: function () {
