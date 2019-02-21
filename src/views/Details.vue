@@ -1,7 +1,7 @@
 <template>
   <div class="main details">
     <div class="content">
-      <div class="text_content" v-if="country === 'de'">
+      <div class="text-content" v-if="country === 'de'">
         <p>Was passiert so die drei Tage:</p>
 
         <h3>Freitag, 30. August:</h3>
@@ -35,7 +35,7 @@
         Euer Geschenk an uns ist, dass ihr nach Brasilien kommt und mit uns feiert. Das ist absolut genug für uns :)
       </div>
 
-      <div class="text_content" v-else-if="country === 'br'">
+      <div class="text-content" v-else-if="country === 'br'">
         <p>E aí, qual a programação?</p>
 
         <h3>Sexta, 30 de Agosto:</h3>
@@ -68,7 +68,7 @@
         <ul><li>Já é um presente que você está vindo, então não precisa se preocupar com presentes :)</li></ul>
       </div>
 
-      <div class="text_content" v-else="country === 'us'">
+      <div class="text-content" v-else="country === 'us'">
         <h3>So what’s gonna happen these three days?</h3>
 
         <h2>Friday, August 30th</h2>

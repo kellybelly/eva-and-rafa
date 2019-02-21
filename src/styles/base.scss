@@ -18,17 +18,20 @@ body {
   font-family: $primary-font;
   color: $black;
 }
-
-.text_content {
-  height: 80%;
+.content {
+  height: 100%;
+}
+.text-content {
+  height: 90%;
+  margin: 0 auto;
   max-width: 500px;
   overflow-y: auto;
 }
-.text_content > h3 {
+.text-content > h2,h3 {
   margin-top: 20px;
   text-align: center;
 }
-.text_content > ul {
+.text-content > ul {
   line-height: 1.5;
 }
 .header {
@@ -69,6 +72,7 @@ body {
 }
 
 .main {
+  height: 100%;
   padding-top: 75px;
 }
 
