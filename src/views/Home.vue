@@ -6,6 +6,9 @@
       <h2 v-if="country === 'br'">
         31 de Agosto<span>|</span>Salvador, Bahia
       </h2>
+      <h2 v-else-if="country === 'de'">
+        31. August<span>|</span>Salvador da Bahia, Brasilien
+      </h2>
       <h2 v-else>
         August 31st<span>|</span>Salvador da Bahia, Brasil
       </h2>
