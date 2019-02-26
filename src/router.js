@@ -30,9 +30,10 @@ export default new Router({
       name: 'tips',
       component: () => import('./views/Tips.vue')
     },
-    /*{
-      path: '*',
-      component: () => import('./views/404.vue')
-    }*/
+    {
+      path: '/rsvp',
+      name: 'rsvp',
+      component: () => import('./views/RSVP.vue')
+    }
   ]
 })

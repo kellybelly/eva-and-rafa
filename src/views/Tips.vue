@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main tips">
     <!-- DEUTSCH -->
     <div class="content content-text" v-if="country === 'de'">
       <h3>Wenn ihr an den Hochzeitstrip noch eine kleine Reise anhängen wollt, hier sind ein paar Tipps:</h3>
