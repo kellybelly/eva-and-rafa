@@ -17,13 +17,22 @@
   h2,
   h3 {
     text-align: center;
+    text-transform: uppercase;
   }
   h2 {
     margin: $large-margin 0;
     font-size: 24px;
     font-weight: 900;
     letter-spacing: 4px;
-    text-transform: uppercase;
+  }
+  h3 {
+    margin: $medium-margin 0;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  h4 {
+    margin: $small-margin 0;
   }
   ul {
     padding-left: $medium-margin;

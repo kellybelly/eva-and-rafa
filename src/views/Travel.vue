@@ -8,7 +8,8 @@
       <h2>Wie kommt man dorthin</h2>
       Flug nach Salvador da Bahia (nicht San Salvador, nicht El Salvador!) und dann ein Taxi zum Hotel (dauert etwa 50 min).
 
-      <h3>Wenn ihr aus Deutschland kommt:</h3>
+      <br /><br />
+      <h4>Wenn ihr aus Deutschland kommt:</h4>
       <ul>
         <li>Flug über Lissabon nach Salvador mit TAP Portugal.</li>
         <li>Es gibt immer einen mehr oder weniger langen Aufenthalt in Lissabon. Daher empfehlen wir, einfach einen ganzen Tag oder sogar eine Nacht Zwischenstopp dort einzulegen und dann weiter zu fliegen.</li>
@@ -18,25 +19,25 @@
       <h2>Wo wird übernachtet</h2>
       Im Resort ist Platz für etwa 50 Gäste.
       <ul>
-        <li>Wir reservieren die Zimmer für unsere Gäste, die den weitesten Weg nach Brasilien haben (Europa, USA) bis Ende Mai. Danach ist die Reservierung auch für die restlichen Gäste offen :)</li>
+        <li>Wir reservieren die Zimmer für unsere Gäste, die den weitesten Weg nach Brasilien haben (Europa, USA) bis Ende Mai. Danach ist die Reservierung auch für die restlichen Gäste offen</li>
         <li>Der Preis pro Doppelzimmer/Nacht ist 100 € während der Hochzeit (Fr bis So), davor und danach ~ € 150 (R$ 650).</li>
         <li>Wenn ihr ein Zimmer reservieren wollt, schreibt einfach eine Email an <a href="mail:contato@bbbh.com.br">contato@bbbh.com.br</a> mit eurem Namen und den Namen eurer Gäste und teilt mit von wann bis wann ihr bleiben wollt. Das Resort meldet sich dann bei euch.</li>
       </ul>
 
-      <h3>Andere schöne Orte zum Übernachten in der Nähe des Resorts:</h3>
+      <h4>Andere schöne Orte zum Übernachten in der Nähe des Resorts:</h4>
       <ul>
         <li><a href="https://goo.gl/maps/hZ5eArMQY7K2">Pousada Praia das Ondas</a></li>
         <li>Weitere folgen bald...</li>
       </ul>
 
       <h2>Wichtiges bevor ihr nach Brasilien kommt</h2>
-      <h3>Visa:</h3>
+      <h4>Visa:</h4>
       Mit einem europäischen Pass könnt ihr ohne Visa bis zu 3 Monate in Brasilien bleiben.
 
-      <h3>Zika:</h3>
+      <h4>Zika:</h4>
       Mehr Informationen findet ihr <a href="https://www.auswaertiges-amt.de/blob/200190/322053258788965790e4296e4be48727/zika-virus-data.pdf">hier</a>.
 
-      <h3>Impfungen:</h3>
+      <h4>Impfungen:</h4>
       Lasst euch auf jeden Fall rechtzeitig gegen Gelbfieber impfen. Tetanus, Diphterie und Hepatitis A sind auch empfehlenswert.
 
       <p>Mehr Informationen findet ihr <a href="https://www.auswaertiges-amt.de/de/aussenpolitik/laender/brasilien-node/brasiliensicherheit/201092#content_5">hier</a> und <a href="https://tropeninstitut.de/ihr-reiseziel/brasilien">hier</a>.</p>
@@ -53,7 +54,7 @@
       <h2>Onde ficar</h2>
         No resort tem espaço para 50 convidados. A princípio vamos reservar estes quartos pra quem vem de longe pro Brasil (Europa, EUA).
         <p>No final de maio a gente avisa se tiver ainda espaço. Obrigados pela sua paciencia :)</p>
-      <h3>Outros lugares legais para ficar perto do resort:</h3>
+      <h4>Outros lugares legais para ficar perto do resort:</h4>
       <ul>
         <li><a href="https://goo.gl/maps/hZ5eArMQY7K2">Pousada Praia das Ondas</a></li>
         <li>Mais informações em breve</li>
@@ -68,19 +69,22 @@
       <h2>How to get there</h2>
       Fly to Salvador da Bahia (not San Salvador, not El Salvador!) and then take a taxi to     the hotel (will take around 50 mins)
 
-      <h3>If you’re coming from Germany:</h3>
+      <br /><br />
+      <h4>If you’re coming from Germany:</h4>
       <ul>
         <li>Fly via Lisbon to Salvador with TAP Portugal.</li>
         <li>As there is always quite a layover at Lisbon, we recommend simply prolonging the stay there and enjoying a day or even a night at one of the most beautiful cities in Europe.</li>
         <li>And if you need tips about Lisbon, Eva will be very happy to give you a very long list of things to do and places to go :)</li>
       </ul>
 
-      <h3>If you’re coming from San Francisco:</h3>
+      <h4>If you’re coming from San Francisco:</h4>
       Fly via L.A. or Dallas to São Paulo, then on to Salvador.
 
-      <h3>If you’re coming from other parts of Brazil:</h3>
+      <br /><br /><br />
+      <h4>If you’re coming from other parts of Brazil:</h4>
       You better know what you’re doing ;)
 
+      <br />
       <h2>Where to stay</h2>
       Around 50 people can stay with us directly at the resort.
       <ul>
@@ -96,19 +100,19 @@
       </ul>
 
       <h2>What do you need to know before coming</h2>
-      <h3>Visa requirements</h3>
+      <h4>Visa requirements:</h4>
       <ul>
         <li><b>EU citizens</b> do not need for a Visa to come to Brazil for up 3 months.</li>
         <li><b>US citizens</b> do need a visa (<a href="http://www.rio.com/visa-information-brazil">details</a>).</li>
       </ul>
 
-      <h3>Zika info:</h3>
+      <h4>Zika info:</h4>
       <ul>
         <li>For English look <a href="https://www.cdc.gov/zika/index.html">here</a>.</li>
         <li>For German look <a href="https://www.auswaertiges-amt.de/blob/200190/322053258788965790e4296e4be48727/zika-virus-data.pdf">here</a>.</li>
       </ul>
 
-      <h3>Vaccinations:</h3>
+      <h4>Vaccinations:</h4>
       Everyone should make sure to get a vaccination against yellow fever. Also Tetanus, Diphterie and Hepatitis A should be on the list. More info here:
       <ul>
         <li>For English look <a href="https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil">here</a>.</li>
