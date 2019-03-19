@@ -14,12 +14,27 @@ body {
   box-sizing: border-box;
 }
 
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+a,
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
 #app {
   font-family: $primary-font;
   color: $black;
 }
-.content {
+
+.main {
   height: 100%;
+<<<<<<< HEAD
   overflow-y: auto;
 }
 .text-content {
@@ -32,7 +47,14 @@ body {
 }
 .text-content > ul {
   line-height: 1.5;
+=======
+  padding: ($large-margin * 3) 0;
+>>>>>>> 6cab808e47350602242cb0c52c058d52e1650186
 }
+
+// header styles
+// --------------------------------------------------
+
 .header {
   position: fixed;
   top: 0;
@@ -40,6 +62,7 @@ body {
   width: 100%;
   font-size: 16px;
   font-weight: 700;
+  line-height: 1em;
   text-align: center;
   a {
     display: inline-block;
@@ -60,6 +83,9 @@ body {
   }
 }
 
+// footer styles
+// --------------------------------------------------
+
 .footer {
   position: fixed;
   right: 0;
@@ -70,6 +96,7 @@ body {
   text-align: right;
 }
 
+<<<<<<< HEAD
 .main {
   width: 600px;
   height: 100%;
@@ -175,6 +202,8 @@ button {
     outline: none;
   }
 }
+=======
+>>>>>>> 6cab808e47350602242cb0c52c058d52e1650186
 .btn-flag {
   position: relative;
   width: $small-margin * 5;
@@ -198,4 +227,34 @@ button {
     height: 100%;
     object-fit: cover;
   }
+}
+
+// background image styles
+// --------------------------------------------------
+
+.bg-imgs:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: -2;
 }

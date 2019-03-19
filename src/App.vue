@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <app-header :country="country"></app-header>
-    <router-view :country="country" />
+    <transition>
+      <router-view :country="country" :key="$route.fullPath" />
+    </transition>
     <app-footer :country="country" @update-country="updateCountry"></app-footer>
   </div>
 </template>
@@ -23,11 +25,6 @@
     methods: {
       updateCountry: function (country) {
         this.country = country
-      }
-    },
-    beforeMount: function () {
-      if(localStorage.country) {
-        this.country = localStorage.country
       }
     }
   }

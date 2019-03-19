@@ -28,6 +28,14 @@
         localStorage.country = newCountry
         this.$emit('update-country', newCountry)
       }
+    },
+    mounted: function () {
+      console.log(this.$route)
+      if (this.$route.query.co) {
+        this.updateCountry(this.$route.query.co)
+      } else if (localStorage.country) {
+        this.updateCountry(localStorage.country)
+      }
     }
   }
 </script>

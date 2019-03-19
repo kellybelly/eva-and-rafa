@@ -8,8 +8,8 @@
   </div>
   <div class="header" v-else-if="country === 'br'">
     <router-link to="/">Início</router-link>
-    <router-link to="/details">Detalhes Da Festa</router-link>
-    <router-link to="/tips">Tips About Brasil</router-link>
+    <router-link to="/details">Detalhes da Festa</router-link>
+    <router-link to="/travel">Informações pra Viagem</router-link>
     <router-link to="/rsvp">RSVP</router-link>
   </div>
   <div class="header" v-else>
