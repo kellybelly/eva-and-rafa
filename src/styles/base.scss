@@ -28,7 +28,7 @@ button {
 }
 
 #app {
-  font-wdfamily: $primary-font;
+  font-family: $primary-font;
   color: $black;
 }
 
@@ -52,7 +52,7 @@ button {
   a {
     display: inline-block;
     padding-bottom: $small-margin / 2;
-    margin: $large-margin;
+    margin: $large-margin $large-margin 0 $large-margin;
     color: $black;
     text-decoration: none;
     text-transform: uppercase;
