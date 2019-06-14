@@ -17,17 +17,12 @@
       </ul>
 
       <h2>Wo wird übernachtet</h2>
-      Im Resort ist Platz für etwa 50 Gäste.
-      <ul>
-        <li>Wir reservieren die Zimmer für unsere Gäste, die den weitesten Weg nach Brasilien haben (Europa, USA) bis Ende Mai. Danach ist die Reservierung auch für die restlichen Gäste offen</li>
-        <li>Der Preis pro Doppelzimmer/Nacht ist 100 € während der Hochzeit (Fr bis So), davor und danach ~ € 150 (R$ 650).</li>
-        <li>Wenn ihr ein Zimmer reservieren wollt, schreibt einfach eine Email an <a href="mail:contato@bbbh.com.br">contato@bbbh.com.br</a> mit eurem Namen und den Namen eurer Gäste und teilt mit von wann bis wann ihr bleiben wollt. Das Resort meldet sich dann bei euch.</li>
-      </ul>
+      Im Resort ist Platz für etwa 50 Gäste, die Zimmer sind inzwischen alle vergeben.
 
       <h4>Andere schöne Orte zum Übernachten in der Nähe des Resorts:</h4>
       <ul>
         <li><a href="https://goo.gl/maps/hZ5eArMQY7K2">Pousada Praia das Ondas</a></li>
-        <li>Weitere folgen bald...</li>
+	<li><a href="https://goo.gl/maps/KLRu4c3Ap4HVEGXw7">Pousada Jambo</a></li>
       </ul>
 
       <h2>Wichtiges bevor ihr nach Brasilien kommt</h2>
@@ -52,12 +47,11 @@
       Vôo para Salvador, e depois um taxi/uber para o hotel (~50 min).
 
       <h2>Onde ficar</h2>
-        No resort tem espaço para 50 convidados. A princípio vamos reservar estes quartos pra quem vem de longe pro Brasil (Europa, EUA).
-        <p>No final de maio a gente avisa se tiver ainda espaço. Obrigados pela sua paciencia :)</p>
-      <h4>Outros lugares legais para ficar perto do resort:</h4>
+        No resort tem espaço para 50 convidados, mas a gente deu prioridade pra quem vem de longe pro Brasil (Europa, EUA) e agora está lotado.
+      <h4>Tem várias pousadas legais perto do hotel, por exemplo:</h4>
       <ul>
         <li><a href="https://goo.gl/maps/hZ5eArMQY7K2">Pousada Praia das Ondas</a></li>
-        <li>Mais informações em breve</li>
+	<li><a href="https://goo.gl/maps/KLRu4c3Ap4HVEGXw7">Pousada Jambo</a></li>
       </ul>
     </div>
 
@@ -86,24 +80,18 @@
 
       <br />
       <h2>Where to stay</h2>
-      Around 50 people can stay with us directly at the resort.
-      <ul>
-        <li>We’ll reserve this space for those who have to travel far to get to Brazil (Europe, U.S.) till the end of May. Afterwards, the remaining spots are open for everyone :)</li>
-        <li>During the two nights of the wedding the price is US$ 113 per night/room, the nights before and after ~ US$ 175 (R$ 650).</li>
-        <li>If you want to reserve a space, please write an email with the names of you and your guests to <a href="mail:contato@bbbh.com.br">contato@bbbh.com.br</a>, tell them you’re there for our wedding and tell them the dates you want to stay at the resort. They will then get back to you.</li>
-      </ul>
-
-      Other lovely places around the resort where you can stay:
+      Around 50 people can stay with us directly at the resort but all the rooms are taken now.
+      There are quite a few other lovely places around the resort where you can stay, for example:
       <ul>
         <li><a href="https://goo.gl/maps/hZ5eArMQY7K2">Pousada Praia das Ondas</a></li>
-        <li>Other recommendations soon to come</li>
+	<li><a href="https://goo.gl/maps/KLRu4c3Ap4HVEGXw7">Pousada Jambo</a></li>
       </ul>
 
       <h2>What do you need to know before coming</h2>
       <h4>Visa requirements:</h4>
       <ul>
         <li><b>EU citizens</b> do not need for a Visa to come to Brazil for up 3 months.</li>
-        <li><b>US citizens</b> do need a visa (<a href="http://www.rio.com/visa-information-brazil">details</a>).</li>
+        <li><b>US citizens</b> don't need a visa anymore!!</li>
       </ul>
 
       <h4>Zika info:</h4>

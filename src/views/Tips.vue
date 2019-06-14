@@ -9,9 +9,9 @@
         <li>Morro de São Paulo ist eine süsse kleine Insel in der Nähe von Salvador, die also sehr beliebt ist bei den Brasilianern</li>
         <li>Rio de Janeiro ist immer einen Besuch wert</li>
         <li>Fernando de Noronha ist ein wunderschönes Naturreservat auf einer Insel, perfekt zu Tauchen und mit Traumstränden</li>
-        </ul>
+        <li>Andere schöne Inseln sind Boipeba, Barra Grande, Taipu de Fora und Itacaré</li>  
+      </ul>
       </p>
-      <p>Mehr Tipps folgen bald :)</p>
     </div>
 
     <!-- ENGLISH -->
@@ -23,9 +23,9 @@
         <li>Morro de São Paulo for a stay on a little island close to Salvador that is also very popular with the Brazilians themselves.</li>
         <li>Rio de Janeiro for some interesting days in the city.</li>
         <li>Fernando de Noronha for a stay on a beautiful natural island with amazing diving and splendid beaches.</li>
+        <li>Other beautiful islands are Boipeba, Barra Grande, Taipu de Fora and Itacaré</li>
       </ul>
       </p>
-      <p>More to follow soon :)</p>
     </div>
 
     <div class="bg-imgs">
