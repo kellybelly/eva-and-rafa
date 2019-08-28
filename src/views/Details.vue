@@ -11,8 +11,8 @@
       <h2>Samstag, 31. August</h2>
       <ul>
         <li>Frühstück/Brunch @ BBlue Beachouses</li>
-        <li>Offizieller Start der Feier mit Drinks um 16:00</li>
-        <li>Die Hochzeitszeremonie startet um ca. 17:00</li>
+        <li>Offizieller Start der Feier mit Drinks um 15:30</li>
+        <li>Die Hochzeitszeremonie startet um ca. 16:00</li>
         <li>Danach gibt es Abendessen und Party!!</li>
       </ul>
 
@@ -46,8 +46,8 @@
       <h2>Sábado, 31 de Agosto</h2>
       <ul>
         <li>Brunch no BBlue Beachouses</li>
-        <li>Recepção começa por volta das 16hs</li>
-        <li>Cerimônia começa por volta das 17hs</li>
+        <li>Recepção começa por volta das 15h30</li>
+        <li>Cerimônia começa por volta das 16hs</li>
         <li>Depois, festa até cansar!!</li>
       </ul>
 
@@ -78,8 +78,8 @@
       <h2>Saturday, August 31st</h2>
       <ul>
         <li>Breakfast/brunch @ BBlue Beachouses (times tbd)</li>
-        <li>Official reception with drink at ~ 4pm</li>
-        <li>Wedding ceremony starts ~ 5pm</li>
+        <li>Official reception with drink at ~ 3:30pm</li>
+        <li>Wedding ceremony starts ~ 4pm</li>
         <li>Afterwards dinner and party!!</li>
       </ul>
 
